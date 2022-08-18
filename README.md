@@ -1,5 +1,8 @@
 ## Executives Place
 
+### Drivers
+Too change too the Api driver you will need to set the ```SERVICE_CLASS_DRIVER=App\Services\ApiDriverExchange``` for api driver atm its auto set on ```App\Services\LocalDriverExchange```. 
+
 ### Assumptions
 1. scenario does not mention that you will need filter by past historic exchange rates 
 2. step 3 is simply a conversion a to b along side user information
